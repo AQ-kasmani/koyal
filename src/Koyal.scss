@@ -1,0 +1,2023 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,700&display=swap");
+
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.alphabetMainBox {
+  .alphabetCarousel {
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+      0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    border-radius: 30px;
+    background-color: #6878b4;
+
+    .owl-stage .item {
+      text-align: center;
+      box-sizing: border-box;
+      padding: 10px 0px;
+    }
+    .owl-stage .item a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 18px;
+      box-sizing: border-box;
+    }
+  }
+}
+// .active {
+//    background-color: gold;
+//    color:Black ;
+//    font-weight:bold;
+// }
+// img.adsLeft {
+//   position: fixed;
+//   right: 0px;
+//   top: 55px;
+//   z-index: 1;
+//   width: 22%;
+// }
+.ad-container {
+  position: relative;
+  // .adsSide {
+  //   //position: fixed;
+  //   //height: 100%;
+  //   //top: 60px;
+  //  // width: 316px;
+  // //  right: 0px;
+  // }
+  // .adsSide img {
+  //   // display: block;
+  //   //width: 100%;
+  // }
+}
+
+// .bodyWrapper {
+//   width: 90%;
+// }
+
+// .bodyWrapper {
+//   padding-right: 300px;
+//   position: relative;
+//   z-index: 100;
+// }
+
+// Globals
+
+$primaryColor: #273d93;
+$secondaryColor: #ec297b;
+$artistName: #868e96;
+$fontFamily: "Poppins", sans-serif;
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  color: #252525;
+  font-family: $fontFamily;
+}
+
+h2,
+.h2 {
+  font-size: 1.86875rem;
+  font-weight: 700;
+}
+h6,
+.h6 {
+  font-size: 0.8750625rem;
+  font-weight: 500;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.6;
+  background: #fff;
+  //background: #efefef;
+  margin: 0px;
+  font-family: $fontFamily;
+}
+
+.header-spacer {
+  margin-bottom: 50px;
+}
+
+.socialIconsShare img {
+  // display: inline-block;
+  // width: 13%;
+
+  display: inline-block;
+  width: 8%;
+  margin-right: 10px;
+}
+
+.MuiListItemText-root {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 22px !important;
+}
+// Edit by Koyal Css
+.allTracksContainer {
+  font-family: $fontFamily;
+  .dummy-img {
+    height: auto;
+    position: absolute;
+    background: #fff;
+    width: 1%;
+    float: right;
+  }
+  .divImage {
+    position: absolute;
+    width: 100%;
+    background-size: cover;
+    filter: blur(330px);
+    height: 150px;
+    background-position: 200px -180px;
+  }
+  // Track Grid
+  .trackGridMain1 {
+    .albumImgBox img {
+      border-radius: 5px;
+    }
+
+    .albumMetaBox {
+      margin-top: 8px;
+      box-sizing: border-box;
+      padding-left: 25px;
+
+      .short-head,
+      .main-title,
+      .short-desc,
+      .counterList {
+        margin: 0px;
+      }
+      .counterList {
+        padding: 2px 0px 0px 0px;
+      }
+      .short-desc {
+        font-size: 13px;
+      }
+      .byDetails {
+        margin: 0px;
+        padding: 0px;
+      }
+      .byDetails li {
+        display: inline-block;
+        width: 25%;
+      }
+      .viewAlbumBtn img {
+        width: 12%;
+        padding-top: 2px;
+      }
+      .counterList li {
+        display: inline-block;
+        width: 18%;
+        box-sizing: border-box;
+        padding: 7px 0px 7px 35px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        
+        background-size: 20%;
+        font-size: 13px;
+      }
+      .albumLikes {
+        background-image: url("/assets/like_black.png");
+      }
+      .albumShare {
+        background-image: url("/assets/share_black.png");
+      }
+      .albumPlay {
+        background-image: url("/assets/play_time.png");
+      }
+      .artistAlbumCounter {
+        background-image: url("/assets/play_time.png");
+      }
+      .artistSongsCounter {
+        background-image: url("/assets/play_time.png");
+      }
+    }
+  }
+  .trackGridMain2 {
+    .trackListHeader {
+      padding: 0px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+      height: 32px;
+      li {
+        list-style-type: none !important;
+      }
+      .trackCol1 {
+        width: 5%;
+        text-align: center;
+        position: relative;
+        min-width: 40px;
+        float: left;
+        height: inherit;
+      }
+
+      .trackCol2 {
+        width: 6%;
+        float: left;
+        height: inherit;
+      }
+
+      .trackCol3 {
+        width: 33%;
+        float: left;
+        height: inherit;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        box-sizing: border-box;
+        padding-right: 20px;
+      }
+
+      .trackCol4 {
+        width: 25%;
+        position: relative;
+        float: left;
+        height: inherit;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        box-sizing: border-box;
+        padding-right: 20px;
+      }
+
+      .trackCol5 {
+        width: 7%;
+        position: relative;
+        float: left;
+        height: inherit;
+      }
+
+      .trackCol6 {
+        width: 9%;
+        position: relative;
+        float: left;
+        height: inherit;
+      }
+
+      .trackCol6 .MuiRating-icon.MuiRating-iconFilled svg {
+        color: red;
+      }
+
+      .trackCol7,
+      .trackCol8,
+      .trackCol9 {
+        width: 5%;
+        position: relative;
+        float: left;
+        height: inherit;
+        text-align: center;
+      }
+      .artistAlbumCol {
+        width: 28%;
+        position: relative;
+        float: left;
+        height: inherit;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        box-sizing: border-box;
+        padding-right: 20px;
+      }
+      .artistAlbumCol a {
+        color: black;
+        text-decoration: none;
+      }
+      .atistiPageTitle {
+        box-sizing: border-box;
+        padding-left: 15px;
+      }
+    }
+    .trackBody {
+      height: 40px;
+      padding: 14px 0 6px;
+      margin: 0px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .trackImg img {
+        width: 36px !important;
+        position: relative;
+        top: -4px;
+      }
+      .downloadImg {
+        text-align: left;
+        padding-left: 15px;
+        box-sizing: border-box;
+        position: relative;
+        top: -5px;
+      }
+      .downloadImg img {
+        width: 27px;
+        height: 27px;
+        cursor: pointer;
+      }
+      .trackTitle a,
+      .trackArtist a {
+        color: black;
+        text-decoration: none;
+      }
+      .trackCol7 img,
+      .trackCol8 img,
+      .trackCol9 img {
+        width: 27px;
+        height: 27px;
+        cursor: pointer;
+      }
+    }
+    .trackBody:hover {
+      background: #e8e8e8;
+      transition: 0.5s;
+      -webkit-transition: all 0.8s;
+      transition: all 0.8s;
+      -moz-transition: all 0.8s;
+      -o-transition: all 0.8s;
+      -ms-transition: all 0.8s;
+      cursor: pointer;
+    }
+    .trackImg .playIcon {
+      display: none;
+    }
+    .trackBody:hover .trackImg img,
+    .trackBody:hover .trackImg .pause-icon {
+      display: none;
+    }
+    .trackBody:hover .trackImg .playIcon {
+      display: block;
+    }
+  }
+
+  .relatedBox a {
+    text-decoration: none;
+    color: black;
+  }
+  .relatedBox a p {
+    margin: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .relatedBox img {
+    border-radius: 5px;
+  }
+  .relate-title h2 {
+    margin: 8px 0px;
+  }
+  .pageGrid4 {
+    padding-top: 0px !important;
+  }
+}
+
+
+
+// Search Section
+
+// Search Section
+// .alice-carousel__stage-item a h6
+/*  small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+  .searchDialogueBody {
+    .searchResultContainer {
+      margin-top: 64px; //it's fixed because of fixed Header
+      padding: 0px 40px 0px;
+
+      .checkClassMobile {
+        display: inline;
+      }
+      .ClassDesktopView1 {
+        display: none;
+      }
+      .ClassDesktopView2 {
+        display: none;
+      }
+    }
+    .MuiToolbar-regular {
+      padding: 0px 0px 0px 50px;
+    }
+    .CustomGridMargin {
+      flex-grow: 0;
+      max-width: 120%;
+      flex-basis: 100%;
+      margin: -24px -24px 0px -24px;
+    }
+  }
+}
+
+/*  devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) {
+  .searchDialogueBody {
+    .searchResultContainer {
+      margin-top: 64px; //it's fixed because of fixed Header
+      padding: 0px 65px 0px;
+
+      .checkClassMobile {
+        display: none;
+      }
+      .ClassDesktopView1 {
+        display: inline;
+      }
+      .ClassDesktopView2 {
+        display: none;
+      }
+    }
+    .MuiToolbar-regular {
+      padding: 0px 70px 0px;
+    }
+    .CustomGridMargin {
+      flex-grow: 0;
+      max-width: 110%;
+      flex-basis: 100%;
+      margin: -24px -24px 0px -24px;
+    }
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+  .searchDialogueBody {
+    .searchResultContainer {
+      margin-top: 64px; //it's fixed because of fixed Header
+      padding: 0px 80px 0px;
+    }
+    .MuiToolbar-regular {
+      padding: 0px 120px 0px;
+    }
+    .CustomGridMargin {
+      flex-grow: 0;
+      max-width: 50%;
+      flex-basis: 50%;
+      margin: -24px -24px 0px -24px;
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+  .searchDialogueBody {
+    .searchResultContainer {
+      margin-top: 64px; //it's fixed because of fixed Header
+      padding: 0px 100px 0px;
+
+      .checkClassMobile {
+        display: none;
+      }
+      .ClassDesktopView1 {
+        display: none;
+      }
+      .ClassDesktopView2 {
+        display: inline;
+      }
+    }
+    .MuiToolbar-regular {
+      padding: 0px 120px 0px;
+    }
+    .CustomGridMargin {
+      flex-grow: 0;
+      max-width: 50%;
+      flex-basis: 50%;
+      // margin: -24px 0px 0px -24px;
+      margin: -20px 15px 0px -20px;
+    }
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .searchDialogueBody {
+    .searchResultContainer {
+      margin-top: 64px; //it's fixed because of fixed Header
+      padding: 0px 120px 0px;
+    }
+
+    .checkClassMobile {
+      display: none;
+    }
+    .ClassDesktopView1 {
+      display: none;
+    }
+    .ClassDesktopView2 {
+      display: inline;
+    }
+    .MuiToolbar-regular {
+      padding: 0px 140px 0px;
+    }
+    .CustomGridMargin {
+      flex-grow: 0;
+      max-width: 25%;
+      flex-basis: 25%;
+      // margin: -24px 0px 0px -24px;
+      margin: -20px 15px 0px -20px;
+    }
+  }
+}
+
+.searchDialogueBody {
+  .searchField {
+    width: 100%;
+  }
+  .searchField::before,
+  .searchField::after {
+    display: none;
+  }
+  .MuiToolbar-regular {
+    // padding: 0px 140px 0px;
+  }
+
+  .searchResultContainer {
+    margin-top: 64px; //it's fixed because of fixed Header
+    // padding: 0px 140px 0px;
+  }
+
+  .searchResultContainer .MuiAppBar-colorPrimary {
+    color: #252525;
+    background-color: white;
+    box-shadow: none;
+  }
+  .MuiDialog-paperFullScreen {
+    background-color: white;
+  }
+  .searchAppBar,
+  .MuiToolbar-regular {
+    background: white;
+  }
+  .MuiTabs-root button {
+    font-size: 1.250438rem;
+    font-family: "Poppins", sans-serif !important;
+    text-transform: capitalize;
+  }
+  .searchField input {
+    font-size: xx-large;
+    line-height: 1;
+    display: inline-block;
+    padding: 0 0 0.1em 0;
+    color: #343a40;
+    border: 0;
+    border-bottom: 0;
+    background: transparent;
+    border-radius: 0;
+    font-family: $fontFamily;
+  }
+  .trackListView:hover {
+    background: white;
+    //  opacity: 0.6;
+    transition: 0.5s;
+    // background: -moz-linear-gradient(39deg, #91a5f4 0%, #b08cf9 86%);
+    // background: -webkit-linear-gradient(39deg, #91a5f4 0%, #b08cf9 86%);
+    // background: linear-gradient(39deg, #91a5f4 0%, #b08cf9 86%);
+    // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91a5f4', endColorstr='#b08cf9',GradientType=1 );
+    border-radius: 5px;
+    // transition: opacity 0.3s;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+      0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  }
+  .album_grid {
+    padding-bottom: 0px !important;
+  }
+  .MuiAvatar-root {
+    width: 50px;
+    border-radius: 5px;
+    height: 50px;
+  }
+  .MuiDivider-root {
+    height: 0px;
+  }
+  .viewMoreBox a {
+    text-decoration: none;
+  }
+
+  .viewMoreBox {
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .MuiCardContent-root {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .viewMoreBox a h6 {
+    text-decoration: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: $fontFamily;
+  }
+  // .CustomGridMargin{
+  //   flex-grow: 0;
+  //   max-width: 25%;
+  //   flex-basis: 25%;
+  // }
+  // .MuiGrid-grid-xs-3  .trackListViewCustome {
+  //   margin: 0px;
+  // }
+  // .trackListView {
+  //   margin: 0px;
+  // }
+
+  .trackListView a {
+    text-decoration: none;
+    // text-overflow: ellipsis;
+    // overflow: hidden;
+    // white-space: nowrap;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .trackListView a span {
+    color: black;
+    font-family: $fontFamily;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .viewMoreBox a img {
+    object-fit: fill;
+  }
+}
+
+// Alphabet Bar
+.alphabetBar {
+  // .MuiPaper-root {
+  //   background: #333 !important;
+  //   color: white !important;
+  // }
+  // .alphabetBar a {
+  //   color: white;
+  // }
+  .MuiTab-textColorPrimary.Mui-selected {
+    color: $secondaryColor;
+  }
+  .PrivateTabIndicator-colorPrimary-213 {
+    background-color: $secondaryColor;
+  }
+  .PrivateTabIndicator-root-212 {
+    width: 90px;
+  }
+
+  @media (min-width: 960px) {
+    .MuiTab-root {
+      min-width: 90px;
+    }
+  }
+}
+
+// Alphabet View More
+.viewMoreAlphabet {
+  .infinite-scroll-component {
+    height: initial !important;
+    overflow: hidden !important;
+    margin: 40px 0px 0px 0px;
+  }
+
+  .viewMoreBox a {
+    text-decoration: none;
+  }
+
+  .viewMoreBox .album-title {
+    text-decoration: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: $fontFamily;
+    margin: 0px;
+    color: black;
+  }
+
+  .viewMoreBox a img {
+    object-fit: fill;
+  }
+
+  .endMessageViewMore {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 1rem;
+  }
+
+  .MuiCardContent-root {
+    padding: 0px;
+  }
+  .MuiGrid-root {
+    padding-bottom: 0px;
+  }
+
+  .viewMoreBox {
+    background: transparent;
+    box-shadow: none;
+  }
+  .viewMoreLoader {
+    text-align: center;
+    margin-top: 40px;
+  }
+}
+
+// Homepage
+.homeMainClass {
+  .sliderBox li {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .alice-carousel__prev-btn {
+    position: absolute;
+    left: -35px;
+    text-align: left;
+    top: 40px;
+    //background: white;
+    width: 4%;
+  }
+  .alice-carousel__next-btn {
+    position: absolute;
+    right: -20px;
+    text-align: right;
+    top: 40px;
+    //background: white;
+    width: 4%;
+  }
+
+  .extraSpaceHome {
+    display: flex;
+    margin-top: 0px;
+    height: 216px;
+  }
+  .emptyItem {
+    width: 50%;
+    box-sizing: border-box;
+    // margin: 2px 4px 0px 0px;
+    //background-color: $artistName;
+  }
+  .emptyItem img {
+    border-radius: 10px;
+    padding: 4px;
+    box-sizing: border-box;
+  }
+  // Bhand
+
+  .sliderBox .alice-carousel__prev-btn {
+    top: 60px;
+    left: -35px;
+  }
+
+  .sliderBox .alice-carousel__next-btn {
+    top: 60px;
+    right: -8px;
+  }
+
+  .artist_section .alice-carousel__prev-btn,
+  .artist_section .alice-carousel__next-btn {
+    top: 20px;
+  }
+
+  .new-section-slider .alice-carousel__prev-btn,
+  .new-section-slider .alice-carousel__next-btn {
+    top: 175px;
+  }
+
+  p.alice-carousel__prev-btn-item {
+    background: url(/assets/prev_icon.png);
+    padding: 15px;
+    background-repeat: no-repeat;
+    font-size: 0px;
+    background-size: 30px;
+  }
+
+  p.alice-carousel__next-btn-item {
+    background: url(/assets/next_icon.png);
+    padding: 15px;
+    background-repeat: no-repeat;
+    font-size: 0px;
+    background-size: 30px;
+  }
+
+  .sliderBox li a img {
+    border-radius: 10px;
+    padding: 4px;
+    box-sizing: border-box;
+  }
+
+  .sliderSection_1 {
+    .artist-name {
+      color: $artistName;
+      width: 120px !important;
+    }
+    .genre-name {
+      color: #000;
+      text-align: center;
+    }
+
+    .new-1 {
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    .slider_subheading {
+      color: $secondaryColor;
+      line-height: 1;
+      margin: 0px;
+    }
+
+    .slider_subheading i.material-icons {
+      position: relative;
+      top: 7px;
+      font-size: 22px;
+    }
+
+    .slider_heading {
+      margin: 0px;
+    }
+
+    .alice-carousel__stage-item a {
+      text-decoration: none;
+    }
+
+    .alice-carousel__stage-item a img {
+      border-radius: 10px;
+      box-sizing: border-box;
+      padding: 4px;
+    }
+
+    &.grenre_section .alice-carousel__stage-item a img {
+      width: 90px !important;
+    }
+
+    .alice-carousel__stage-item a h6 {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      // width: 120px;
+      margin: 5px 0px 5px 0px;
+      white-space: nowrap;
+      font-weight: 400;
+      position: relative;
+      top: -6px;
+      padding-left: 5px;
+      // font-size: 13px;
+    }
+
+    a.see_all {
+      text-decoration: none;
+      width: 100%;
+      text-align: right;
+    }
+
+    .slider-side1 {
+      display: flex;
+      height: 70px;
+      align-items: center;
+      padding-bottom: 0px;
+    }
+    .slider-side2 {
+      display: flex;
+      height: 70px;
+      align-items: center;
+    }
+
+    .slider-header {
+      margin-bottom: 5px;
+    }
+  }
+
+  .play-icon {
+    position: absolute;
+    bottom: 75px;
+    right: 0;
+    left: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    visibility: hidden;
+  }
+
+  .play-icon img,
+  .play-icon-1 img {
+    width: 24%;
+  }
+
+  .play-icon i.material-icons {
+    color: #ec297b;
+  }
+
+  .play-icon-1 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0;
+    cursor: pointer;
+    border-radius: 30px;
+    text-align: center;
+    transform: translateY(80px);
+    transition: translate 0.5s linear;
+  }
+
+  .play-icon-1 i.material-icons {
+    color: #ec297b;
+  }
+
+  .divider {
+    border-top-color: #e9ecef;
+    margin: 5px 0px 5px 0px;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    visibility: hidden;
+  }
+
+  .divider2 {
+    border-top-color: #e9ecef;
+    margin: 10px 0px 10px 0px;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    visibility: hidden;
+  }
+
+  .alice-carousel__dots-item {
+    background-color: $primaryColor;
+  }
+  .alice-carousel__dots-item.__active {
+    background-color: $secondaryColor;
+  }
+
+  .grenre_section {
+    li.alice-carousel__stage-item.__active {
+      text-align: center;
+    }
+    li a h6 {
+      width: initial !important;
+    }
+  }
+}
+
+// Header
+
+.header-parent {
+  header {
+    box-sizing: border-box;
+    padding: 2px 0px;
+    border: none;
+    height: 61px;
+  }
+
+  .logoContainer {
+    display: flex;
+    align-items: center;
+
+    i {
+      font-size: 24px;
+      cursor: pointer;
+    }
+  }
+  img.logo {
+    width: 75%;
+    //margin-left: 30px;
+  }
+
+  .desktop-nav,
+  .searchBox {
+    display: flex;
+    height: 55px;
+    align-items: center;
+  }
+
+  .desktop-menu-item {
+    padding: 0.3rem 1.1rem;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .first-item {
+    padding-left: 0px !important;
+  }
+
+  .desktop-menu-item a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .searchBox button {
+    background-color: $secondaryColor;
+  }
+
+  .searchBox {
+    float: right;
+  }
+  .searchBox h5 {
+    padding-right: 20px;
+    position: relative;
+    top: -4px;
+  }
+
+  .searchBox .android_icon {
+    position: relative;
+    top: 7px;
+    left: 5px;
+  }
+}
+
+.languageBarCustom {
+  .ul_language {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-bottom: 25px;
+  }
+
+  .language-item {
+    width: 100%;
+    text-align: center;
+    background: #6878b4;
+    border-radius: 3px;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+
+    margin: 0px 1px;
+  }
+  .language-item a {
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 8px 0px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+// Language Bar
+.languageBar {
+  padding-bottom: 25px;
+  .MuiTabs-flexContainer a {
+    background: #273d93;
+    /* margin-right: 2px; */
+    border-radius: 3px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 16px;
+    width: 189px;
+    letter-spacing: 0px;
+    font-weight: 100;
+    margin: 0px 0px 0px 1px !important;
+    padding: 0px 0px 0px 0px !important;
+  }
+
+  .MuiTabs-flexContainer .Mui-selected {
+    background-color: $secondaryColor;
+  }
+
+  .MuiTabs-flexContainer a span {
+    font-family: $fontFamily;
+  }
+
+  .MuiAppBar-colorDefault {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .PrivateTabIndicator-colorPrimary-213 {
+    background-color: transparent;
+  }
+}
+
+.myAudioPlayer {
+  background: $primaryColor;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  z-index: 999;
+
+  div#MyPlayer {
+    height: 35px !important;
+    position: relative;
+    top: 18px;
+  }
+
+  .audioPlayerImage {
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 15px;
+    align-items: center;
+  }
+  .audioPlayerImage img {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+
+  .audioPlayerImage p {
+    margin: 0px;
+  }
+
+  .audioPlayerImage ul {
+    padding: 0px;
+  }
+
+  .audioPlayerImage ul li {
+    list-style: none;
+    box-sizing: border-box;
+    padding-left: 5px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 300;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+  }
+
+  .menuIconPlayer {
+    color: #fff;
+  }
+
+  .playerOptions ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .playerOptions ul li {
+    list-style: none;
+  }
+  .downloadImagePlayer img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+  li.menuIconRadio {
+    box-sizing: border-box;
+    padding: 5px 10px;
+    background: white;
+    border-radius: 120px;
+    color: #273d93;
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  .menuIconPlayer svg {
+    color: white;
+  }
+
+  .jw-related-btn,
+  .jw-icon-settings,
+  .jw-icon-fullscreen,
+  .jw-icon.jw-icon-inline.jw-text.jw-reset.jw-text-duration {
+    display: none;
+  }
+
+  .jw-controlbar.jw-reset {
+    flex-flow: row-reverse !important;
+  }
+
+  .jw-reset.jw-button-container {
+    width: 20%;
+  }
+  .jwplayer.jw-reset.jw-state-error.jw-stretch-uniform.jw-flag-aspect-mode.jw-breakpoint-6.jw-floating-dismissible.jw-flag-user-inactive {
+    display: none !important;
+  }
+  .jw-error-msg.jw-info-overlay.jw-reset,
+  .jwplayer video,
+  .jw-media.jw-reset {
+    display: none !important;
+  }
+  .jw-aspect.jw-reset {
+    padding: 0px !important;
+  }
+}
+.jw-reset{
+  background-color: rgb(39, 61, 147);
+}
+// .myAudioPlayer {
+//   position: relative;
+
+//   div#MyPlayer .jw-reset.jw-button-container {
+//     padding: 0 48px 0px;
+//   }
+
+//   div#MyPlayer {
+//     position: fixed;
+//     bottom: 0;
+//     z-index: 9999;
+//   }
+//   div#MyPlayer .jw-aspect.jw-reset {
+//     padding: 84px 0px 0px 0px !important;
+//   }
+//   .jw-error.jw-reset {
+//     display: none;
+//   }
+//   .jw-breakpoint-7 .jw-controlbar .jw-button-container .jw-icon-volume .jw-overlay {
+//     padding-bottom: 0px;
+//     left: 60px;
+//     bottom: -10px;
+//   }
+//   .jw-volume-tip {
+//     padding: 0px;
+//   }
+//   .jw-breakpoint-7 .jw-nextup-container,
+//   .jw-media.jw-reset,
+//   .jw-top.jw-reset {
+//     display: none;
+//   }
+//   .jw-controlbar.jw-reset {
+//     box-sizing: border-box;
+//     padding-left: 14%;
+//   }
+//   .jw-breakpoint-7 .jw-controlbar .jw-button-container .jw-icon-inline,
+//   .jw-breakpoint-7 .jw-controlbar .jw-button-container .jw-icon-volume {
+//     height: 50px;
+//     width: 50px;
+//   }
+
+//   .audioPlayerImage {
+//     color: white;
+//   }
+
+//   .audioPlayerImage {
+//     position: fixed;
+//     bottom: 0px;
+//     width: 16%;
+//     height: 80px;
+//     z-index: 9999;
+//     display: flex;
+//     font-size: 11px;
+//   }
+// .audioPlayerImage img {
+//   width: 75px;
+//   box-sizing: border-box;
+//   padding: 5px;
+// }
+
+// .audioPlayerImage p {
+//   margin: 0px;
+//   font-size: 11.5px;
+// }
+
+// .audioPlayerImage ul {
+//   padding: 0px;
+// }
+
+// .audioPlayerImage ul li {
+//   list-style: none;
+//   box-sizing: border-box;
+//   padding-left: 10px;
+// }
+
+// .jw-related-btn,
+// .jw-icon-settings,
+// .jw-icon-fullscreen {
+//   display: none;
+// }
+// }
+
+// Ringtone Screen
+.ringtoneScreen {
+  width: 26%;
+  margin: 0 auto;
+  height: 50%;
+  top: 100px !important;
+
+  .mainHeadingRingtone {
+    color: white;
+    flex: 1;
+    font-family: $fontFamily;
+    font-size: 16px;
+  }
+  .yourNumberHeading {
+    flex: 1;
+    margin-top: 30px;
+    text-align: center;
+    font-family: $fontFamily;
+    font-size: 16px;
+  }
+  .ringtoneContainer {
+    font-family: $fontFamily;
+  }
+  .selectOperatorBox {
+    margin: 0px 0px 10px 0px;
+  }
+  .enterNumberField {
+    margin: 0px 0px 20px 0px;
+  }
+  .msgInfo {
+    text-align: center;
+    font-family: $fontFamily;
+  }
+  .sendMessageBtn {
+    margin: 0 auto;
+    font-family: $fontFamily;
+  }
+  .sendMessageBtn span.MuiButton-label {
+    font-size: 12px;
+  }
+}
+
+.sideQueue {
+  width: 18%;
+  .MuiPaper-root.MuiPaper-elevation16.MuiDrawer-paper.MuiDrawer-paperAnchorLeft {
+    width: 18%;
+    top: 6.5%;
+    background: #e3e3e3;
+  }
+  .MuiBackdrop-root {
+    background-color: transparent;
+  }
+  .sideQueueTracks span {
+    font-size: 14px;
+    font-family: $fontFamily;
+  }
+  .sideQueueTracks a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.queueDrawer {
+  // background: #f6f6f6;
+  // box-shadow: rgba(0, 0, 0, 0.1) 1px 0 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  top: 0;
+  z-index: 300;
+
+  .queueWrapper {
+    height: 72vh;
+    padding: 66px 0 90px 0;
+    position: fixed;
+    top: 0;
+    z-index: 394;
+    left: 0px;
+    background: #f6f6f6;
+    width: 70px;
+    -webkit-transition: width 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.3s;
+    overflow: hidden;
+  }
+
+  .trackImage i.material-icons {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    /* height: 75%; */
+    /* width: 73%; */
+  }
+
+  .removeTrackBtn {
+    position: absolute;
+    z-index: 999;
+    right: 20px;
+  }
+
+  // queuecollapse
+  .queueWrapper:hover {
+    background: #f6f6f6;
+    width: 300px;
+  }
+  // .queueWrapper {
+  //   background: #f6f6f6;
+  //   width: 300px;
+  // }
+  .Hamburger_icon{
+    transform: rotate(90deg);
+  }
+  
+  span.MuiTouchRipple-root {
+    visibility: hidden;
+  }
+
+button.MuiButtonBase-root.MuiIconButton-root {
+  visibility: hidden;
+}
+  .MuiIconButton-root, .MuiIconButton-label , .Hamburger_icon ,.MuiIconButton-root:active, .MuiIconButton-label:active , .Hamburger_icon:active{
+    transition: none;
+    background-color: transparent;
+  }
+  //Hide and show Icon Cross
+  .material-icons.cancel_button_css {
+    width: 25px;
+    top: 15px;
+    position: absolute;
+    right: 40px;
+    font-size: 20px;
+    height: 20px;
+    vertical-align: middle;
+    visibility: hidden;
+}
+.MuiButtonBase-root.MuiIconButton-root:hover{
+  background-color: transparent;
+}
+.trackMeta:hover .cancel_button_css {
+  visibility: visible;
+}
+  // span.hoverPlayIcon {
+  //   background: blue;
+  //   height: 12px;
+  //   left: 50%;
+  //   opacity: 0;
+  //   margin: -6px 0 0 -3px;
+  //   position: absolute;
+  //   top: 50%;
+  //   width: 9px;
+  //   z-index: 300;
+  // }
+
+  // span.hoverPlayIcon ::after {
+  //   border-radius: 68px;
+  //   box-shadow: inset #fff 0 0 0 2px;
+  //   height: 34px;
+  //   left: 50%;
+  //   margin: -17px 0 0 -17px;
+  //   top: 50%;
+  //   width: 34px;
+  //   z-index: 200;
+  //}
+
+  .trackMeta {
+    min-height: 58px;
+    padding: 13px 0px 8px 63px;
+    // position: relative;
+    box-sizing: border-box;
+  }
+  .trackMeta:hover{
+    position: relative;
+  }
+
+  .queueTopBar {
+    padding: 0px 10px 0px 10px;
+  }
+
+  .queueMiddleBar ul {
+    padding: 0px;
+  }
+
+  .trackImage {
+    background-color: #f6f6f6;
+    float: left;
+    margin-top: 8px;
+    position: relative;
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.21s ease-in-out;
+    z-index: 200;
+    background-size: cover;
+    border-radius: 3px;
+    box-shadow: inset rgba(0, 0, 0, 0.17) 0 0 0 1px;
+    height: 42px;
+    width: 42px;
+    border: 1px solid rgba(0,0,0,.15);
+  }
+
+  .trackImage img {
+    width: 100%;
+    width: 100%;
+  }
+
+  li.queueTrackList {
+    list-style: none;
+    cursor: pointer;
+    height: 58px;
+    padding: 0 10px 0 10px;
+    border-bottom: 1px solid #efefef;
+  }
+
+  li.queueTrackList:hover {
+    background-color: #fff;
+  }
+
+  .trackMeta h5 {
+    font-size: 12px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .trackMeta p {
+    margin: 0px;
+    font-size: 12px;
+  }
+
+  .trackMeta h5,
+  .trackMeta p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  //Hover effects
+  .trackMeta:hover h5, .trackMeta:hover p{
+    width: 150px;
+  } 
+  // UK
+.trackMeta:hover button.MuiButtonBase-root.MuiIconButton-root {
+  visibility: visible;
+}
+  .cancelQueTrack {
+    float: none !important;
+    position: absolute;
+    right: -3px;
+    text-align: right;
+    width: 25%;
+    top: 50%;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    opacity: 1;
+    -webkit-transition: width 0.5s;
+    transition: width 0.5s;
+    -moz-transition: width 0.5s;
+    -o-transition: width 0.5s;
+    -ms-transition: width 0.5s;
+    
+    .playerOptionsExtra {
+      background-color: white;
+      width: 230px;
+      color: gray;
+      height: 160px;
+      border-radius: 10px;
+      z-index: 2;
+      
+      .view {
+      display: block;
+      border-bottom: 1px gray solid;
+      margin: 14px !important;
+
+      .viewImg{
+        background-image: url("/assets/download_black.png");
+        background-repeat: no-repeat;
+        background-position: right center;
+        text-align: left;
+        background-size: 21px;
+        list-style: none;
+      }
+      .viewImgLike{
+        background-image: url("/assets/like_black.png");
+        background-repeat: no-repeat;
+        background-position: right center;
+        text-align: left;
+        background-size: 21px;
+        list-style: none;
+      }
+      .viewImgShare{
+        background-image: url("/assets/share_black.png");
+        background-repeat: no-repeat;
+        background-position: right center;
+        text-align: left;
+        background-size: 21px;
+        list-style: none;
+      }
+      .viewImgCT{
+        background-image: url("/assets/ringtone_black.png");
+        background-repeat: no-repeat;
+        background-position: right center;
+        text-align: left;
+        background-size: 21px;
+        list-style: none;
+      }
+      }
+      .viewWithOutBorder {
+      display: block;
+      // border-bottom: 1px black solid;
+      margin: 14px !important;
+      }
+      .viewWithOutBorder img {
+      width: 21px;
+      height: 21px;
+      }
+      .view img {
+      width: 21px;
+      height: 21px;
+      }
+    }
+    
+
+
+  }
+// Commit Overflow Property
+  .queueMiddleBar {
+    height: 83vh;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+
+  // .queueMiddleBar ul {
+  //   padding: 0px;
+  //   overflow-x: hidden;
+  //   overflow-y: scroll;
+  //   min-height: 600px;
+  // }
+
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+  ::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #000000;
+  }
+  ::-webkit-scrollbar-track {
+    background: #b7aeae;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-track:hover {
+    background: #666666;
+  }
+  ::-webkit-scrollbar-track:active {
+    background: #333333;
+  }
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+}
+
+// @media (min-width: 1280px) {
+//   .main-container {
+//     max-width: 1400px !important;
+//   }
+// }
+
+/* Desktops and laptops ----------- */
+// @media only screen and (min-width: 1224px) {
+//   .homeMainClass {
+//     background: brown;
+//   }
+// }
+
+/* Large screens ----------- */
+// @media only screen and (min-width: 1824px) {
+//   .homeMainClass {
+//     display: red;
+//   }
+// }
+
+.md-18 {
+  font-size: 18px;
+}
+
+.md-24 {
+  font-size: 24px;
+}
+
+.md-36 {
+  font-size: 36px;
+}
+
+.md-48 {
+  font-size: 48px;
+}
+
+.drawer-title-div {
+  width: 100%;
+}
+
+.footerMain {
+  margin: 50px 0px 0px 0px;
+  box-sizing: border-box;
+  padding: 0px 20px;
+  background: rgba(239, 239, 239, 0.28);
+
+  .footerTopBar {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+  }
+
+  .topbarItem {
+    font-size: 16px;
+  }
+
+  .topbarItem a {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+  }
+
+  .topbarItem span {
+    padding: 0px 20px;
+  }
+
+  .footerMiddleBar {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footerMiddleItem p {
+    margin: 0px 0px 4px 0px;
+  }
+
+  .footerMiddleItem p a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: $fontFamily;
+    font-size: 13px;
+  }
+
+  .footerMiddleItem {
+    width: 100%;
+  }
+
+  .followUsBox {
+    display: flex;
+    justify-content: center;
+    margin: 45px 0px 20px 0px;
+  }
+
+  a.folowItem img {
+    width: 40px;
+  }
+  p.folowItem,
+  .folowItem img {
+    padding-right: 10px;
+  }
+  .copyright {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+}
+
+//about us
+.AboutUs {
+  // background-color: blueviolet;
+  margin-top: 100px;
+  .CustomeH2 {
+    margin: 0px;
+    padding: 0px;
+  }
+  .AboutContent {
+    text-align: justify;
+    margin: 0px;
+  }
+}
+
+//about us
+.AboutUs {
+  // background-color: blueviolet;
+  margin-top: 100px;
+  .CustomeH2 {
+    margin: 0px;
+    padding: 0px;
+  }
+  .AboutContent {
+    text-align: justify;
+    margin: 0px;
+  }
+}
+
+//DMCA
+
+.DMCA {
+  margin-top: 100px;
+  .CustomeH2 {
+    margin: 0px;
+    padding: 0px;
+  }
+  .DMCAContent {
+    text-align: justify;
+    margin: 0px;
+    margin-left: 40px;
+    .DMCAName {
+      width: 50%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      // border: 1px solid #ccc;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;
+      border-bottom: 1px solid #ccc;
+      border-right: 1px solid #ccc;
+      border-top: none;
+      border-left: none;
+    }
+    .DMCAName:hover {
+      width: 50%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      // border: 1px solid #ccc;
+      border-bottom: 1px solid #303f9f;
+      border-right: 1px solid #303f9f;
+      border-top: none;
+      border-left: none;
+
+      // -webkit-transition: 0.5s;
+      // transition: 0.5s;
+      // outline: none;
+      // border: 3px solid #555;
+    }
+    .DMCAButton {
+      color: white;
+      background-color: #303f9f;
+      padding: 6px 16px;
+      font-size: 0.875rem;
+      min-width: 64px;
+      box-sizing: border-box;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+      font-weight: 500;
+      line-height: 1.75;
+      border-radius: 4px;
+      letter-spacing: 0.02857em;
+      text-transform: uppercase;
+      border: none;
+      border-radius: 8px;
+    }
+    .DMCAButton:hover {
+      color: white;
+      background-color: #454f90;
+      padding: 6px 16px;
+      font-size: 0.875rem;
+      min-width: 64px;
+      box-sizing: border-box;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+      font-weight: 500;
+      line-height: 1.75;
+      border-radius: 4px;
+      letter-spacing: 0.02857em;
+      text-transform: uppercase;
+      border: none;
+      border-radius: 8px;
+    }
+  }
+  .ListStyle {
+    list-style: none;
+    .tOP {
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+  }
+}
+
+// TOC
+.TOS {
+  text-align: justify;
+  .ListStyle {
+    list-style: none;
+  }
+}
+
+// PrivacyPolicy
+.PrivacyPolicy {
+  text-align: justify;
+  .ListStyle {
+    list-style: none;
+  }
+  .CustomeH2 {
+    margin: 0px;
+    padding: 0px;
+  }
+  .top {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+}
+
+.playerOptionsExtra {
+  background-color: white;
+  width: 230px;
+  color: gray;
+  height: 160px;
+  border-radius: 10px;
+  
+  .view {
+  display: block;
+  border-bottom: 1px gray solid;
+  margin: 14px !important;
+  
+  }
+  .viewWithOutBorder {
+  display: block;
+  // border-bottom: 1px black solid;
+  margin: 14px !important;
+  }
+  .viewWithOutBorder img {
+  width: 21px;
+  height: 21px;
+  }
+  .view img {
+  width: 21px;
+  height: 21px;
+  }
+}
+
+//Track Like Option
+.LineBreak {
+  border-bottom: 1px solid #ececec;
+}
+.AlignMeCenter {
+  text-align: center !important;
+  color: gray;
+}
+.MuiDialogActions-root {
+  text-align: center !important;
+}
+.DialogContent {
+  text-align: center;
+  h5,
+  h3 {
+    margin: 0px;
+    padding: 0px;
+  }
+  .ContentRef {
+    text-align: center !important;
+    .SquareImg {
+      height: 50px;
+      width: 50px;
+      background-color: #555;
+      text-align: center !important;
+    }
+    .MuiGrid-spacing-xs-3,
+    .MuiGrid-item {
+      padding: 0px;
+      margin: 0px;
+    }
+    .MuiGrid-spacing-xs-3,
+    .MuiGrid-item,
+    h6,
+    .h6 {
+      padding: 0px;
+      margin: 0px;
+    }
+  }
+  .VarificationCode {
+    text-align: center;
+    color: #303f9f;
+    font-size: 20px;
+  }
+}
+.DialogFooterCustome {
+  width: 25%;
+
+  .socialIconsShare img {
+    display: inline-block !important;
+    width: 5% !important;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 30px !important;
+  }
+  .DialogFooterCustome p {
+    margin: 0px;
+  }
+}
+
+// congratulations
+.CongratulationDialogTitle {
+  text-align: center;
+  color: #303f9f;
+}
+// oops
+.OOPsDialogTitle {
+  text-align: center;
+  color: #303f9f;
+}
+// Subscribe
+.SubscribeDialogTitle {
+  text-align: center;
+  color: #303f9f;
+  font-size: 20px;
+}
+.SubscribeDialogSubTitle {
+  text-align: center;
+  color: gray;
+  font-size: 14px;
+}
+
+.SearchMaterialIcon {
+  .material-icons {
+    font-size: 20px;
+    color: white;
+  }
+}

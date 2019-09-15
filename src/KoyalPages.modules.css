@@ -1,0 +1,136 @@
+.Red{
+    background: red;
+}
+
+.adsSide{
+    position: fixed;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    top: 10%;
+    text-align: center;
+}
+
+.startRadio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider_heading{
+    font-size: 1.2em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.sliderImageBox:hover .play-icon-1 {
+    transform: translateY(-65px);
+}
+
+.sliderSection_1.new_hover2 li.alice-carousel__stage-item:hover .play-icon {
+    visibility: visible;
+}
+
+.new_hover:hover .play-icon {
+    visibility: visible;
+}
+
+.trackMeta:hover .makeStyles-paper-105 {
+    left: -160px !important;
+}
+
+.share_text{
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+}
+
+.contect_center{
+    margin-top: 20px;
+}
+.trackName p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.share_on{
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.makeStyles-SquareImg-279, .makeStyles-SquareImg-279 img{
+    border-radius: 3px;
+}
+.MuiDialog-paperWidthSm{
+    background-color: #f0f0f0;
+}
+.Album_img > div{
+    margin: 0 auto;
+}
+
+.dialog_share .MuiPaper-root{
+    background-color: #f7f7f7;
+}
+
+.like_dialogue .MuiDialog-paperWidthSm{
+    width: 400px;
+}
+.artist_name{
+    color: gray;
+    margin: 0px;
+    font-size: 12px;
+}
+
+.logindiv{
+    width: 100%;
+    text-align: center;
+}
+
+.jw-reset{
+    background-color: rgb(39, 61, 147);
+}
+
+@media screen and (max-width: 1024px) {
+    .myAudioPlayer .audioPlayerImage ul li {
+        width: 70%;
+    }
+    .myAudioPlayer li.menuIconRadio {
+        padding: 5px 5px;
+    }
+    .myAudioPlayer div#MyPlayer {
+        top: 15px;
+    }
+    .adsSide{
+        top: 11%;
+    }
+    .adsSide img{
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+}
+
+
+/* MEDIA QUERY */
+@media only  screen  and  ( max-width: 1024px ){
+
+}
+
+@media only  screen  and  ( max-width: 1280px ){
+
+}
+
+@media only  screen  and  ( max-width: 1366px ){
+
+}
+
+@media only  screen  and  ( max-width: 1440px ){
+
+}
+
+@media only  screen  and  ( max-width: 1600px ){
+
+}
