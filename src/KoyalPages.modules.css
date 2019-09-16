@@ -24,9 +24,9 @@
     letter-spacing: 1px;
     text-transform: uppercase;
 }
-
+/* Edit By Koyal Css */
 .sliderImageBox:hover .play-icon-1 {
-    transform: translateY(-65px);
+    transform: translateY(0%);
 }
 
 .sliderSection_1.new_hover2 li.alice-carousel__stage-item:hover .play-icon {
@@ -113,14 +113,50 @@
     }
 }
 
-
+.alice-carousel__prev-btn-item.__inactive, .alice-carousel__next-btn-item.__inactive{
+    opacity: 1;
+}
 /* MEDIA QUERY */
 @media only  screen  and  ( max-width: 1024px ){
+    .sliderBox li.alice-carousel__stage-item.__active{
+        width: 34.4% !important;
+    }
+    li.alice-carousel__stage-item.__active{
+        width: 14.4% !important;
+    }
+    .artist_section li.alice-carousel__stage-item.__active{
+        width: 16.7% !important;
+    }
+    .homeMainClass .artist_section .alice-carousel__prev-btn,
+    .homeMainClass .artist_section .alice-carousel__next-btn {
+        top: 21%;
+    }
+    .footerMain .topbarItem a{
+        font-size: 12.5px;
+    }
+    .MuiGrid-spacing-xs-3 > .MuiGrid-item{
+        padding-top: 0px !important;
+    }
+    .homeMainClass .sliderSection_1 .slider-side1,
+    .homeMainClass .sliderSection_1 .slider-side2{
+        height: 37px;
+    }
+    .footerMain .footerMiddleBar {
+        justify-content: flex-start;
+    }
 
+    .footerMain .footerMiddleItem {
+        width: 33.3%;
+    }
+    .allTracksContainer .trackGridMain1 .albumMetaBox .counterList li{
+        padding-left: 32px;
+    }
 }
 
 @media only  screen  and  ( max-width: 1280px ){
-
+    .allTracksContainer .trackGridMain1 .albumMetaBox .counterList li{
+        padding-left: 38px;
+    }
 }
 
 @media only  screen  and  ( max-width: 1366px ){

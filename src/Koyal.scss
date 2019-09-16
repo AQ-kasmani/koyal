@@ -185,11 +185,12 @@ body {
         width: 12%;
         padding-top: 2px;
       }
+      // Edit By Koyal
       .counterList li {
         display: inline-block;
-        width: 18%;
+        width: 24%;
         box-sizing: border-box;
-        padding: 7px 0px 7px 35px;
+        padding: 7px 0px 7px 46px;
         background-repeat: no-repeat;
         background-position: left center;
         
@@ -237,7 +238,7 @@ body {
       }
 
       .trackCol3 {
-        width: 33%;
+        width: 25%;
         float: left;
         height: inherit;
         white-space: nowrap;
@@ -280,7 +281,7 @@ body {
       .trackCol7,
       .trackCol8,
       .trackCol9 {
-        width: 5%;
+        width: 7%;
         position: relative;
         float: left;
         height: inherit;
@@ -736,24 +737,24 @@ body {
   .sliderBox li {
     margin: 0px 0px 0px 0px;
   }
+  
 
   .alice-carousel__prev-btn {
     position: absolute;
-    left: -35px;
+    left: -3%;
     text-align: left;
-    top: 40px;
+    top: 16%;
     //background: white;
     width: 4%;
   }
   .alice-carousel__next-btn {
     position: absolute;
-    right: -20px;
+    right: -1%;
     text-align: right;
-    top: 40px;
+    top: 17%;
     //background: white;
     width: 4%;
   }
-
   .extraSpaceHome {
     display: flex;
     margin-top: 0px;
@@ -773,18 +774,18 @@ body {
   // Bhand
 
   .sliderBox .alice-carousel__prev-btn {
-    top: 60px;
-    left: -35px;
+    top: 32%;
+    left: -3%;
   }
 
   .sliderBox .alice-carousel__next-btn {
-    top: 60px;
-    right: -8px;
+    top: 32%;
+    right: -1%;
   }
 
   .artist_section .alice-carousel__prev-btn,
   .artist_section .alice-carousel__next-btn {
-    top: 20px;
+    top: 28%;
   }
 
   .new-section-slider .alice-carousel__prev-btn,
@@ -894,12 +895,15 @@ body {
       margin-bottom: 5px;
     }
   }
-
+.new-1.new_hover, .new-2.new_hover{
+  position:relative;
+}
+// Edit By Koyal Css
   .play-icon {
     position: absolute;
-    bottom: 75px;
+    top: 48%;
     right: 0;
-    left: 0;
+    margin-right: -47%;
     border-radius: 30px;
     cursor: pointer;
     text-align: center;
@@ -908,7 +912,7 @@ body {
 
   .play-icon img,
   .play-icon-1 img {
-    width: 24%;
+    width: 17%;
   }
 
   .play-icon i.material-icons {
@@ -917,13 +921,13 @@ body {
 
   .play-icon-1 {
     position: absolute;
-    bottom: 0px;
-    right: 0px;
-    left: 0;
+    bottom: 6%;
+    right: -15%;
+    // left: 0;
     cursor: pointer;
     border-radius: 30px;
     text-align: center;
-    transform: translateY(80px);
+    transform: translateY(105%);
     transition: translate 0.5s linear;
   }
 
@@ -1703,8 +1707,8 @@ button.MuiButtonBase-root.MuiIconButton-root {
   margin: 50px 0px 0px 0px;
   box-sizing: border-box;
   padding: 0px 20px;
-  background: rgba(239, 239, 239, 0.28);
-
+  background: #ffffff;
+  
   .footerTopBar {
     display: flex;
     justify-content: center;
@@ -1723,10 +1727,12 @@ button.MuiButtonBase-root.MuiIconButton-root {
   .topbarItem span {
     padding: 0px 20px;
   }
-
+  // Edit By Koyal
   .footerMiddleBar {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
   }
 
   .footerMiddleItem p {
@@ -1739,9 +1745,9 @@ button.MuiButtonBase-root.MuiIconButton-root {
     font-family: $fontFamily;
     font-size: 13px;
   }
-
+  // Edit By Koyal
   .footerMiddleItem {
-    width: 100%;
+    width: 19%;
   }
 
   .followUsBox {
