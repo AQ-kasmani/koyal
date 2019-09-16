@@ -118,14 +118,21 @@
 }
 /* MEDIA QUERY */
 @media only  screen  and  ( max-width: 1024px ){
-    .sliderBox li.alice-carousel__stage-item.__active{
-        width: 34.4% !important;
+    .sliderBox li.alice-carousel__stage-item.__active,
+    .sliderBox li.alice-carousel__stage-item{
+        width: 33.4% !important;
     }
-    li.alice-carousel__stage-item.__active{
-        width: 14.4% !important;
+    li.alice-carousel__stage-item.__active,
+    li.alice-carousel__stage-item{
+        width: 16.7% !important;
     }
+    .artist_section li.alice-carousel__stage-item,
     .artist_section li.alice-carousel__stage-item.__active{
         width: 16.7% !important;
+    }
+    .homeMainClass .alice-carousel__stage-item.__cloned{
+        opacity: 1;
+        visibility: visible;
     }
     .homeMainClass .artist_section .alice-carousel__prev-btn,
     .homeMainClass .artist_section .alice-carousel__next-btn {
